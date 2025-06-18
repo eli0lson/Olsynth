@@ -188,6 +188,7 @@ const Key = (props: KeyProps) => {
                 key={buttonKey} 
                 className={classNames}
                 >
+                {keyName}
                     {/* {analyser && (
                         <Visualizer
                             audioContext={audioContext}
